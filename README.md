@@ -7,4 +7,4 @@ Currently the only new feature is the ability to save separate reports for each 
 
 <b>License</b>
 
-The original app was licensed with GNU General Public License version 3.0 (GPLv3), so this mod is licensed with it as well.
+The original app was licensed with <a href="http://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License version 3.0 (GPLv3)</a>, so this mod is licensed with it as well.
