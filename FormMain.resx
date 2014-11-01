@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStripMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>410, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>150, 17</value>
+  </metadata>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>545, 17</value>
+  </metadata>
+  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>247, 17</value>
+  </metadata>
+  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>150, 17</value>
+  </metadata>
+  <data name="comboBoxWordFreqMethod.ToolTip" xml:space="preserve">
+    <value>Select the method used to extract words from the input files.
+
+MeCab is widely used morphological analyzer and is quite fast.
+
+JParser is an alternate method that uses a larger dictionary (EDICT + ENAMDICT) 
+and thus recognizes more words and seems to have better support for names 
+and short expressions. However, it is much slower than Mecab.</value>
+  </data>
+  <data name="checkBoxKanjify.ToolTip" xml:space="preserve">
+    <value>This is a JParser-only option.
+
+This option actually has 2 behaviors:
+If checked, use kanji form of word even if it is normally written in kana.
+If unchecked, use the kana form of word if it is normally written in kana.
+
+For example:
+If checked, ともに will be converted to 共に.
+If unchecked,  共に will be converted to ともに.</value>
+  </data>
+  <data name="labelParseMethod.ToolTip" xml:space="preserve">
+    <value>Select the method used to extract words from the input files.
+
+MeCab is widely used morphological analyzer and is quite fast.
+
+JParser is an alternate method that uses a larger dictionary (EDICT + ENAMDICT) 
+and thus recognizes more words and seems to have better support for names 
+and short expressions. However, it is much slower than Mecab.</value>
+  </data>
+  <data name="checkBoxWordFreq.ToolTip" xml:space="preserve">
+    <value>Word Frequency Report:
+--------------------------
+Name: word_freq_report.txt
+
+Format:
+  Field 1: Number of times word was encountered
+  Field 2: Word
+  Field 3: Percentage (Field 1 / Total number of words)
+  Field 4: Cumulative percentage
+  Field 5: Part-of-speech
+
+Report is sorted from most frequent word to least frequent word.</value>
+  </data>
+  <data name="checkBoxKanjiFreq.ToolTip" xml:space="preserve">
+    <value>Kanji Frequency Report:
+-------------------------
+Name: kanji_freq_report.txt
+
+Format:
+  Field 1: Number of times kanji was encountered
+  Field 2: Kanji
+  Field 3: Percentage (Field 1 / Total number of kanji)
+  Field 4: Cumulative percentage
+
+Report is sorted from most frequent kanji to least frequent kanji.</value>
+  </data>
+  <data name="checkBoxFormulaReadability.ToolTip" xml:space="preserve">
+    <value>Formula-based Readability Report:
+-------------------------------------
+Readability report generated based on Hayashi and OBI-2 readability calculations.
+
+Name: formula_based_readability_report.txt
+
+Format:
+  Field 1: OBI-2 Grade Level (1-13, where 1 is the most readable)
+  Field 2: Hayashi Score (0-100, where 100 is the most readable)
+  Field 3: Filename
+  
+Report is sorted from most readable to least readable.
+
+Hayashi Score Information:
+http://www.ideosity.com/ideosphere/seo-information/readability-tests#Hayashi
+
+OBI-2 Grade Level Information:
+http://kotoba.nuee.nagoya-u.ac.jp/sc/obi2/obi_e.html</value>
+  </data>
+  <data name="checkBoxUserReadability.ToolTip" xml:space="preserve">
+    <value>User-based Readability Report:
+--------------------------------
+Using a list of words that the user already knows, this report can help to determine readability
+of a text based on the percentage of words in the text that the user already knows.
+
+Name: user_based_readability_report.txt
+
+Format:
+  Field 1: Readability expressed as a percentage (0-100) of the total number
+               of non-unique known words vs. the total number of non-unique words.
+  Field 2: Total number of non-unique words
+  Field 3: Total number of non-unique known words
+  Field 4: Total number of non-unique unknown words
+  Field 5: Readability expressed as a percentage (0-100) of the total number
+               of unique known words vs. the total number of unique words.
+  Field 6: Total number of unique words
+  Field 7: Total number of unique known words
+  Field 8: Total number of unique unknown words
+  Field 9: Filename
+
+Report is sorted based on Readability (Field 1).
+
+The Word Frequency Report Options also apply to this report.</value>
+  </data>
+  <metadata name="backgroundWorkerMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>661, 17</value>
+  </metadata>
+  <data name="checkBoxSeparateReports.ToolTip" xml:space="preserve">
+    <value>Save a separate word and kanji report for each file
+in the directory.
+
+Only works for directory inputs. Generated reports will
+be named after the original file plus ".word_freq.txt" and
+".kanji_freq.txt". Subdirectories will be included in the
+name with provided separator.</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>60</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAAAAAAGAAAABgAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUcQA
+        AAAAAAAANoQAHkkAAAAAAAAAESoAS7YAAAAADiMAO5AAAAAAAAAAAAAAAAAAUcQAAAAAAAAAESoASbAA
+        AAAAAAAANoQAHkkAAAAADiMAO5AAAAAAAAAAAAAAAAAAUcQAAAAAAAAAAAAAV9IAav8Aav8AYOgAAQQA
+        AAAADiMAO5AAAAAAAAAAAAAAAAAAUcQAAAAAAAAAAAAAJVsALW4AK2gALW4AAAAAAAAADiMAO5AAAAAA
+        AAAAAAAAAAAAUcQAAAAAAAAAAAAABQ4AY/AAav8ACxsAAAAAAAAADiMAO5AAAAAAAAAAUcQAav8Aav8A
+        av8Aav8AAAAAAAAANoQAQJwAAAAADiMAav8Aav8Aav8Aav8AO5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8A
+        av8Aav8Aav8Aav8Aav8AU8oACBUAAAAAMnoAav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8A
+        av8ALGoAOIgAVc4AAAAAXN8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8AW9wA
+        AAAAW9wAav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8AW9wAAAAAW9wAav8Aav8A
+        av8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8AW9wAAAAAW9wAav8Aav8Aav8Aav8Aav8Aav8A
+        av8Aav8Aav8Aav8Aav8Aav8Aav8AW9wAAAAAW9wAav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8A
+        av8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8Aav8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+</root>
